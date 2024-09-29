@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <!-- TextView pour afficher "Hello Toast" en haut de la page -->
+    <TextView
+        android:id="@+id/Impot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" calcul d'impôts locaux"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Nom"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom"
+        android:layout_marginTop="122dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Adresse"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp" />
+
+    <EditText
+        android:id="@+id/editTextAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre Adresse"
+        android:layout_marginTop="220dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Surface"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp" />
+
+    <EditText
+        android:id="@+id/editTextSurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="Entrez la Surface"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/Pièce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Nombre de pièces"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp" />
+
+    <EditText
+        android:id="@+id/editNbpièce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:hint="Entrez le nombre de pièces"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/btn_Calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul"
+        android:layout_marginTop="500dp"
+        android:padding="10dp"
+        android:backgroundTint="#34495e "
+        android:textColor="#ffffff"
+        android:layout_gravity="end"
+        />
+    <CheckBox
+        android:id="@+id/checkBoxPiscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscine"
+        android:textSize="18dp"
+        android:layout_marginTop="500dp"
+    />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:padding="16dp"
+        android:textColor="#000000"/>
+
+</FrameLayout>
