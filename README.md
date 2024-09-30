@@ -1,13 +1,13 @@
-# Calculateur d'Impôts Locaux 
+# Calculateur d'Impôts Locaux de voiture
 
 ## Description
 
-Cette application Android permet de calculer les impôts locaux  en fonction de certaines caractéristiques. Le calcul prend en compte des éléments comme la surface, le nombre de pièces, et la présence d'une piscine. L'utilisateur entre les informations requises, et l'application calcule automatiquement le montant total des impôts.
+Cette application Android permet de calculer les impôts locaux de voiture  en fonction de certaines caractéristiques. Le calcul prend en compte des éléments comme la surface, le nombre de pièces, et la présence d'une piscine. L'utilisateur entre les informations requises, et l'application calcule automatiquement le montant total des impôts.
 
 ## Fonctionnalités
 
 - Entrée des informations sur la propriété telles que :
-  - Surface (en m²)
+  - Surface 
   - Nombre de pièces
   - Présence d'une piscine (oui/non)
 - Calcul automatique de l'impôt total basé sur la formule suivante :
